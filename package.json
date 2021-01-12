@@ -1,0 +1,24 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacklee5/capstone-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacklee5/capstone-project/issues"
+  },
+  "homepage": "https://github.com/jacklee5/capstone-project#readme",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
