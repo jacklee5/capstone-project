@@ -54,6 +54,7 @@ function createWindow() {
                 fetch("https://api.zoom.us/v2/users/me", "GET", [["Authorization", "Bearer " + token]])
                 .then(res => {
                     console.log(JSON.parse(res));
+                    win.loadFile("index.html");
                 })
             })
         }
