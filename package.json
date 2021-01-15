@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/jacklee5/capstone-project#readme",
   "devDependencies": {
-    "electron": "^11.1.1"
+    "electron": "^11.2.0"
+  },
+  "dependencies": {
+    "jso": "^4.1.1"
   }
 }
