@@ -2,7 +2,7 @@
   "name": "capstone-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "zoomauth.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
@@ -22,6 +22,7 @@
     "electron": "^11.2.0"
   },
   "dependencies": {
+    "client-oauth2": "^4.3.3",
     "jso": "^4.1.1"
   }
 }
