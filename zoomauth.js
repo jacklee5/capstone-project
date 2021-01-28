@@ -1,4 +1,5 @@
 const { app, BrowserWindow, net } = require('electron');
+let ejs = require("ejs-electron");
 const CLIENT_ID = "Q52BUw5kREym86duDulQ5A";
 const CLIENT_SECRET = "Yrfj5D1dihO17EWE83YXTV5UPy5wT2pL";
 const REDIRECT_URI = "https://localhost";
@@ -54,7 +55,7 @@ function createWindow() {
                 fetch("https://api.zoom.us/v2/users/me", "GET", [["Authorization", "Bearer " + token]])
                 .then(res => {
                     console.log(JSON.parse(res));
-                    win.loadFile("index.html");
+                    win.loadFile("index.ejs");
                 })
             })
         }

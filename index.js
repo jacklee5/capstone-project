@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron');
+let ejs = require("ejs-electron");
 
 // import {JSO, Popup} from 'jso';
 
@@ -19,7 +20,7 @@ function createWindow () {
     }
   })
 
-  win.loadFile('index.html')
+  win.loadFile('index.ejs')
 }
 
 app.whenReady().then(createWindow)
