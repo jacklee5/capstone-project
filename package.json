@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "client-oauth2": "^4.3.3",
+    "ejs-electron": "^2.1.1",
     "jso": "^4.1.1"
   }
 }

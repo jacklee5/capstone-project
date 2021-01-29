@@ -39,6 +39,17 @@ html, body, .row {
     font-family: Helvetica, sans-serif;
 }
 
+.column-subheader {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: rgb(40, 40, 40);
+    color: rgb(180, 180, 180);
+    font-family: Helvetica, sans-serif;
+}
+
 .stripe {
     font-family: Helvetica, sans-serif;
     color: rgb(180, 180, 180);

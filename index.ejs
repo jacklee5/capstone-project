@@ -21,6 +21,14 @@
         </div>
         <div class="column middle">
             <div class="column-header">Class Info</div>
+            <div>
+                <div class="column-subheader">Participants</div>
+                    <% for(var i = 0; i < data.registrants.length; i++) {%>
+                        <div class="stripe">
+                            <%= data.registrants[i].first_name%> <%= data.registrants[i].last_name%> 
+                        </div>
+                     <% } %>
+            </div>
             <p>
                 <img src="static/OOOO.gif">
             </p>
